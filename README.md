@@ -1,6 +1,6 @@
 # Web Chat App
 
-#### A web chat allows users to communicate in real-time using easily #### vaccessible web interfaces - Java, Servlet, WebSocket, HTML, CSS, #### JS, Boostrap, Postgresql.
+#### A web chat allows users to communicate in real-time using easily vaccessible web interfaces - Java, Servlet, WebSocket, HTML, CSS,  JS, Boostrap, Postgresql.
 
 
 ## How to run
