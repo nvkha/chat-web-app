@@ -22,10 +22,17 @@ async function addMessage(msg) {
             '<span class="time-right">' + msg.msg_date + '</span>' +
             '</div>';
     }
+    else if(msg.name == name){
+        ct = '<div class="box">' +
+            '<p style="float: right"><span> \t&#128040<strong>' + msg.name + '</strong></span></p>' +
+            '<p>' + msg.content + '</p>' +
+            '<span style="float: right">' + msg.msg_date + '</span>' +
+            '</div>';
+    }
     else {
         ct = '<div class="box">' +
-            '<strong><p style="float: right"><span>' + msg.name + '</strong></p>' +
-            '<p>' + msg.content + '</p>' +
+            '<p style="float: right">' + '</p>' +
+            '<p st><span>&#129428<strong>' + msg.name + '</strong></span> <span style="float: right">' + msg.content + '</span></p>' +
             '<span style="float: right">' + msg.msg_date + '</span>' +
             '</div>';
     }

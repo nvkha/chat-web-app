@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ChatWebApp:war" />
       <artifact name="ChatWebApp:war exploded" />
     </artifacts-to-build>
   </component>
@@ -10,7 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d225bfa9-a345-4ec5-889c-e21fd7e5615f" name="Changes" comment="" />
+    <list default="true" id="d225bfa9-a345-4ec5-889c-e21fd7e5615f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staitc/css/signin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staitc/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staitc/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staitc/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staitc/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/common/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/common/web/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/common/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/common/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/common/web/meta.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/common/web/meta.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWebApp-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ChatWebApp-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWebApp-1.0/templates/common/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ChatWebApp-1.0/templates/common/web/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWebApp-1.0/templates/common/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ChatWebApp-1.0/templates/common/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWebApp-1.0/templates/common/web/meta.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ChatWebApp-1.0/templates/common/web/meta.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWebApp-1.0/templates/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ChatWebApp-1.0/templates/login.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +34,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -59,10 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\ChatWebApp\src\main\webapp\staitc\css" />
+      <recent name="D:\IdeaProjects\ChatWebApp\src\main\webapp\templates" />
       <recent name="D:\IdeaProjects\ChatWebApp\src\main\java\com\nvkha\website\utils" />
       <recent name="D:\IdeaProjects\ChatWebApp\src\main\java" />
       <recent name="D:\IdeaProjects\ChatWebApp\src\main\old_msg_server" />
-      <recent name="D:\IdeaProjects\ChatWebApp\src\main\java\com\nvkha\website\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -141,6 +160,7 @@
     </configuration>
     <configuration name="Tomcat 8.5.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://192.168.1.7:8080/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ChatWebApp:war exploded">
@@ -229,7 +249,6 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="ChatWebApp:war exploded" />
-          <artifact name="ChatWebApp:war" />
         </option>
       </method>
     </configuration>
@@ -263,11 +282,26 @@
       <workItem from="1643250496200" duration="43743000" />
       <workItem from="1643338868955" duration="31152000" />
       <workItem from="1643375413400" duration="5845000" />
+      <workItem from="1643423536234" duration="1838000" />
+      <workItem from="1643442858060" duration="1035000" />
+      <workItem from="1643463357946" duration="2958000" />
+      <workItem from="1643471830107" duration="6241000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

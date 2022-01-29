@@ -27,6 +27,5 @@
 </div>
 <%@include file="/templates/common/web/footer.jsp" %>
 </body>
-<!-- JS-->
 <script src="/staitc/js/home.js"></script>
 </html>
