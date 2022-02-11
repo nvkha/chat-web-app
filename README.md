@@ -5,8 +5,7 @@
 
 ## Demo
 - [Heroku](https://nvkha-blog.herokuapp.com/)
-- https://user-images.githubusercontent.com/90548693/151846217-748b88da-1bd7-432f-9de2-92f1e8a54b6d.mp4
-
+https://user-images.githubusercontent.com/90548693/153602626-08a330b0-67bc-41be-9335-bd271d24397d.mp4
 
 
 
